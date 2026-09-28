@@ -118,4 +118,3 @@ if __name__ == '__main__':
                 logging.error(message)
     logging.info('Окончание работы программв установки паролей')
 
-
