@@ -1,0 +1,43 @@
+{
+  "global_data":
+    {
+      "admin_name": "test_root",
+      "admin_password": "WW@@ww22",
+      "key_type": "ed25519",
+      "key_file": "/home/andresj/PycharmProjects/easyPWDchange/id_ed25519",
+      "password" : "EE##ee33"
+    },
+  "servers":
+  [
+    {
+      "host" : "10.0.1.77",
+      "port" : 31,
+      "users" :
+      [
+        {
+          "user_name" : "test_1",
+          "password" : "QQ!!qq11"
+        },
+        {
+          "user_name" : "test_2",
+          "password" : "WW@@ww22"
+        }
+      ]
+    },
+    {
+      "host" : "10.0.1.77",
+      "port" : 31,
+      "admin_name": "test_root",
+      "admin_password": "QQ!!qq11",
+      "key_type": "ed25519",
+      "key_file": "/home/andresj/PycharmProjects/easyPWDchange/id_ed25519",
+      "users" :
+      [
+        {
+          "user_name" : "test_3"
+        }
+      ]
+    }
+  ]
+
+}
